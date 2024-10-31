@@ -217,6 +217,7 @@ return array(
 		'email-webmail-firefox-fix' => 'Email (webmail - fix for Firefox)',	// IGNORE
 		'facebook' => 'Facebook',	// IGNORE
 		'gnusocial' => 'GNU social',	// IGNORE
+		'hoarder' => 'Hoarder', // IGNORE
 		'jdh' => 'Journal du hacker',	// IGNORE
 		'lemmy' => 'Lemmy',	// IGNORE
 		'linkding' => 'Linkding',	// IGNORE

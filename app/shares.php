@@ -96,6 +96,15 @@ return [
 		'form' => 'advanced',
 		'method' => 'GET',
 	],
+	'hoarder' => [
+	        'url' => '~URL~/freshrss/custom/hoarder.php?url=~LINK~',
+	        'transform' => ['rawurlencode'],
+	        'help' => 'https://your-hoarder-instance/help',
+	        'form' => 'advanced',
+	        'method' => 'POST', 
+	        'content_type' => 'application/json',
+	        'Accept' => 'application/json',
+	],
 	'jdh' => [
 		'url' => 'https://www.journalduhacker.net/stories/new?url=~LINK~&title=~TITLE~',
 		'transform' => ['rawurlencode'],
